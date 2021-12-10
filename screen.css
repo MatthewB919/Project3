@@ -11,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: medium;
-  line-height: normal;
+  line-height: 1.5em;
   background-color:#999999;
   padding: 2em;
 }
@@ -24,7 +24,6 @@ nav {
 }
 
 nav li {
-
   display: inline-grid;
   text-align: center;
   padding: 1em;
@@ -39,6 +38,7 @@ p {
 }
 
 li {
+  /* 8/16=0.5*/
   padding: 0.5em;
 }
 
