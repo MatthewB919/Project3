@@ -34,9 +34,14 @@ nav li {
 
 p {
 
-  padding-left: 1em;
+  padding: 0.625em;
   /* 10/16=0.625*/
   padding-top: 0.625em;
+  padding-bottom: 0.625em:
+}
+
+li {
+  padding: 0.5em;
 }
 
 h1 {
@@ -62,24 +67,16 @@ h2 {
    max-width: 100%;
  }
 
-@media all and (min-width: 800px)  {
+
+
+@media all and (min-width: 500px)  {
   section {
     width: 100%
   }
 }
 
-@media all and (min-width: 600px)  {
+@media all and (min-width: 800px)  {
   section {
-    width: 50%
+    width: 100%
   }
-}
-
-
-  li {
-    padding: 0.5em;
-  }
-
-p{
-  padding: 0.5em;
-  padding-bottom: 0.25em;
 }
